@@ -1,0 +1,218 @@
+# Logfile created on Thu Jul 20 08:30:29 -0700 2017
+
+Processing UserController#login (for 127.0.0.1 at 2017-07-20 08:32:59) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 18903ms (View: 69, DB: 54) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2017-07-20 08:33:36) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"SD4ydV66oua/KuKJNeEuKUFekLZFpAV2iWosER/+cUU=", "controller"=>"user", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/user/dashboard
+Completed in 34ms (DB: 25) | 302 Found [http://localhost/]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2017-07-20 08:33:36) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 942ms (View: 909, DB: 27) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing TimetableController#index (for 127.0.0.1 at 2017-07-20 08:33:49) [GET]
+  Parameters: {"action"=>"index", "controller"=>"timetable"}
+Rendering template within layouts/application
+Rendering timetable/index
+Completed in 124ms (View: 109, DB: 2) | 200 OK [http://localhost/timetable]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2017-07-20 08:33:58) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 42ms (View: 33, DB: 2) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing UserController#logout (for 127.0.0.1 at 2017-07-20 08:34:03) [GET]
+  Parameters: {"action"=>"logout", "controller"=>"user"}
+Redirected to http://localhost:3000/
+Completed in 7ms (DB: 3) | 302 Found [http://localhost/user/logout]
+
+
+Processing UserController#login (for 127.0.0.1 at 2017-07-20 08:34:04) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 13ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2017-07-20 08:50:08) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2017-07-20 08:54:27) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 40ms (View: 12, DB: 24) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2017-07-20 08:55:46) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2017-07-20 08:55:59) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"ValEpCXfWT3oqVticll6FAdoQFjdfueKEUu7X8VvP6s=", "controller"=>"user", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/user/dashboard
+Completed in 12ms (DB: 4) | 302 Found [http://localhost/]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2017-07-20 08:56:00) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 560ms (View: 488, DB: 60) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing UserController#profile (for 127.0.0.1 at 2017-07-20 08:57:51) [GET]
+  Parameters: {"action"=>"profile", "id"=>"admin", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/profile
+Completed in 112ms (View: 40, DB: 56) | 200 OK [http://localhost/user/profile/admin]
+
+
+Processing UserController#profile (for 127.0.0.1 at 2017-07-20 08:58:24) [GET]
+  Parameters: {"action"=>"profile", "id"=>"admin", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/profile
+Completed in 36ms (View: 28, DB: 0) | 200 OK [http://localhost/user/profile/admin]
+
+
+Processing UserController#login (for 127.0.0.1 at 2017-07-20 08:58:48) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 12ms (View: 8, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2017-07-20 08:58:57) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"QL0kgjOvGFa70J+GkPmrLvqheOopL+YG1q7TEmd8mrc=", "controller"=>"user", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/user/dashboard
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2017-07-20 08:58:58) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 40ms (View: 36, DB: 0) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing UserController#profile (for 127.0.0.1 at 2017-07-20 09:00:25) [GET]
+  Parameters: {"action"=>"profile", "id"=>"admin", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/profile
+Completed in 36ms (View: 28, DB: 0) | 200 OK [http://localhost/user/profile/admin]
+
+
+Processing UserController#profile (for 127.0.0.1 at 2017-07-20 09:00:32) [GET]
+  Parameters: {"action"=>"profile", "id"=>"admin", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/profile
+Completed in 40ms (View: 28, DB: 0) | 200 OK [http://localhost/user/profile/admin]
+
+
+Processing UserController#profile (for 127.0.0.1 at 2017-07-20 09:01:09) [GET]
+  Parameters: {"action"=>"profile", "id"=>"admin", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/profile
+Completed in 36ms (View: 28, DB: 4) | 200 OK [http://localhost/user/profile/admin]
+
+
+Processing UserController#login (for 127.0.0.1 at 2017-07-20 09:01:43) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 16ms (View: 12, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2017-07-20 09:01:53) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"PjLEl7PhvicGPE525z1pkFRLyzzTRiLTFC9PhYTQ9gE=", "controller"=>"user", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/user/dashboard
+Completed in 4ms (DB: 4) | 302 Found [http://localhost/]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2017-07-20 09:01:53) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 40ms (View: 36, DB: 4) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing UserController#profile (for 127.0.0.1 at 2017-07-20 09:01:58) [GET]
+  Parameters: {"action"=>"profile", "id"=>"admin", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/profile
+Completed in 104ms (View: 32, DB: 4) | 200 OK [http://localhost/user/profile/admin]
+
+
+Processing UserController#login (for 127.0.0.1 at 2017-07-20 09:06:25) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2017-07-20 09:06:34) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"FakUchCEyUe0AYBjFM9Po6RXBsZ4yK+0oK+b8kLdqtw=", "controller"=>"user", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/user/dashboard
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2017-07-20 09:06:34) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 40ms (View: 36, DB: 0) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing UserController#profile (for 127.0.0.1 at 2017-07-20 09:06:40) [GET]
+  Parameters: {"action"=>"profile", "id"=>"admin", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/profile
+Completed in 36ms (View: 28, DB: 0) | 200 OK [http://localhost/user/profile/admin]
+
+
+Processing UserController#login (for 127.0.0.1 at 2017-07-20 09:06:58) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Redirected to http://localhost:3000/user/dashboard
+Filter chain halted as [:check_if_loggedin] rendered_or_redirected.
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2017-07-20 09:06:58) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 44ms (View: 36, DB: 0) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing NewsController#index (for 127.0.0.1 at 2017-07-20 09:07:01) [GET]
+  Parameters: {"action"=>"index", "controller"=>"news"}
+Rendering template within layouts/application
+Rendering news/index
+Completed in 104ms (View: 88, DB: 4) | 200 OK [http://localhost/news]
+
+
+Processing UserController#profile (for 127.0.0.1 at 2017-07-20 09:07:03) [GET]
+  Parameters: {"action"=>"profile", "id"=>"admin", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/profile
+Completed in 40ms (View: 32, DB: 0) | 200 OK [http://localhost/user/profile/admin]
